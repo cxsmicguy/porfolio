@@ -12,7 +12,15 @@ export default function Portfolio() {
       </div>
       <br />
       <PortfolioComp 
-        img={"/youtube-clone.png"}
+        img={"/basic.webp"}
+        name={"Basic AI"}
+        description={"A small AI made with just NextJS, Tailwind and my brain :)"}
+        lang1={"NextJS"}
+        lang2={"TailwindCSS"}
+        demo={"https://basicai.online/"}>
+      </PortfolioComp>
+      <PortfolioComp2 
+        img={"/youtube-clone.webp"}
         name={"Youtube Clone"}
         description={"A YouTube clone website built with ReactJS and RapidAPI can showcase your web development and API integration skills. Use Next.js for server-side rendered React apps and RapidAPI for YouTube API integration."}
         lang1={"React"}
@@ -20,9 +28,9 @@ export default function Portfolio() {
         code={"https://github.com/cxsmicguy/youtube-clone"}
         codeI="code"
         demo={"https://ytclone.cosmicguy.online/"}>
-      </PortfolioComp>
-      <PortfolioComp2 
-        img={"/google-clone.png"}
+      </PortfolioComp2>
+      <PortfolioComp 
+        img={"/google-clone.webp"}
         name={"Google Clone"}
         description={"A Google clone website made with Next.js and Google API can showcase your web development and API integration skills. Use Next.js for server-side rendered React apps and Google API for search functionality."}
         lang1={"NextJS"}
@@ -30,17 +38,9 @@ export default function Portfolio() {
         codeI="code"
         code={"https://github.com/cxsmicguy/google-clone"}
         demo={"https://google-clone.cosmicguy.online/"}>
-      </PortfolioComp2>
-      <PortfolioComp 
-        img={"/vita.png"}
-        name={"Copy Writer"}
-        description={"A copywriter AI website made with Next.js and OpenAI can showcase your skills in AI development and web development. Use Next.js for UI and OpenAI for generating high-quality copy."}
-        lang1={"HTML, JS"}
-        lang2={"TailwindCSS"}
-        demo={"https://vitalsx.com/"}>
       </PortfolioComp>
       <PortfolioComp2 
-        img={"/moviedb.png"}
+        img={"/moviedb.webp"}
         name={"Movie GUide"}
         description={"A movie guide app website made with Next.js can showcase your skills in web development. Use Next.js to build a performant and SEO-friendly website for browsing and searching for movies."}
         lang1={"HTML, JS"}

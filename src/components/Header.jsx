@@ -25,7 +25,7 @@ export default function Header() {
             </div>
             <div>
               <center>
-                <Image src="/me.jpg" alt="me" width={500} height={500} className='w-full scale-100 md:full h-full max-w-xs max-h-xl filter drop-shadow-xl opacity-90 hover:filter-none hover:scale-110 duration-300 ease-in-out hover:drop-shadow-xl hover:opacity-100 border border-4 border-white hover:border-0' style={{ borderRadius: "30%" , blur: "2px"}}></Image>
+                <Image src="/me.webp" alt="me" width={500} height={500} className='w-full scale-100 md:full h-full max-w-xs max-h-xl filter drop-shadow-xl opacity-90 hover:filter-none hover:scale-110 duration-300 ease-in-out hover:drop-shadow-xl hover:opacity-100 border border-4 border-white hover:border-0' style={{ borderRadius: "30%" , blur: "2px"}}></Image>
               </center>
             </div>
           </div>
