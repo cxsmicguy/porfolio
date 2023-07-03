@@ -12,6 +12,24 @@ export default function Portfolio() {
       </div>
       <br />
       <PortfolioComp 
+        img={"/vita.png"}
+        name={"Vitals X"}
+        description={"A free SEO tool made with love for fellow developers and bloggers to help them rank better :)"}
+        lang1={"NextJS"}
+        lang2={"TailwindCSS"}
+        demo={"https://vitalsx.com"}>
+      </PortfolioComp>
+      <PortfolioComp2 
+        img={"/moviedb.webp"}
+        name={"Movie GUide"}
+        description={"A movie guide app website made with Next.js can showcase your skills in web development. Use Next.js to build a performant and SEO-friendly website for browsing and searching for movies."}
+        lang1={"HTML, JS"}
+        lang2={"CSS"}
+        code={"https://github.com/cxsmicguy/moviedb"}
+        codeI="code"
+        demo={"https://moviedb.cosmicguy.online/"}>
+      </PortfolioComp2>
+      <PortfolioComp 
         img={"/basic.webp"}
         name={"Basic AI"}
         description={"A small AI made with just NextJS, Tailwind and my brain :)"}
@@ -39,16 +57,6 @@ export default function Portfolio() {
         code={"https://github.com/cxsmicguy/google-clone"}
         demo={"https://google-clone.cosmicguy.online/"}>
       </PortfolioComp>
-      <PortfolioComp2 
-        img={"/moviedb.webp"}
-        name={"Movie GUide"}
-        description={"A movie guide app website made with Next.js can showcase your skills in web development. Use Next.js to build a performant and SEO-friendly website for browsing and searching for movies."}
-        lang1={"HTML, JS"}
-        lang2={"CSS"}
-        code={"https://github.com/cxsmicguy/moviedb"}
-        codeI="code"
-        demo={"https://moviedb.cosmicguy.online/"}>
-      </PortfolioComp2>
     </center>
   );
 }
